@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-no-repeat bg-cover min-h-screen;
+  background: linear-gradient(180deg, rgba(33, 36, 63, 0.5) 10%, rgba(166, 166, 166, 0.27) 64.36%), #21243F;
+}
+
+.contained {
+  @apply container relative max-w-xs mx-auto;
+}
